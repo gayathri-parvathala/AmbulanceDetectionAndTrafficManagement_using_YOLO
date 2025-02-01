@@ -5,14 +5,14 @@ import serial
 import time
 model_path = 'C:\\Users\\yolei\\Desktop\\amb_v8\\runs\\detect\\train3\\weights\\best.pt'
 video_paths = [
-    "C:/Users/yolei/Downloads/cam1.mp4",  
-    "C:/Users/yolei/Downloads/cam2.mp4",  
-    "C:/Users/yolei/Downloads/cam3.mp4",  
-    "C:/Users/yolei/Downloads/cam4.mp4"   
+    "C:/Users/*****/Downloads/cam1.mp4",  #add path to your videos
+    "C:/Users/*****/Downloads/cam2.mp4",  
+    "C:/Users/*****/Downloads/cam3.mp4",  
+    "C:/Users/*****/Downloads/cam4.mp4"   
 ]
 
 model = YOLO(model_path)
-confidence_threshold = 0.82  
+confidence_threshold = 0.82
 class_names = model.names
 caps = [cv2.VideoCapture(video_path) for video_path in video_paths]
 for i, cap in enumerate(caps):
