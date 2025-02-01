@@ -1,0 +1,8 @@
+train: "C:/Users/yolei/Desktop/new_data/images/train"
+val: "C:/Users/yolei/Desktop/new_data/images/val"
+test: "C:/Users/yolei/Desktop/new_data/images/test"
+
+nc: 2
+names: ['ambulance','x']
+
+
