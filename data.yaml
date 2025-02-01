@@ -1,8 +1,8 @@
-train: "C:/Users/yolei/Desktop/new_data/images/train"
-val: "C:/Users/yolei/Desktop/new_data/images/val"
-test: "C:/Users/yolei/Desktop/new_data/images/test"
+train: "C:/Users/*****/Desktop/new_data/images/train" #add path to train,val,test sets
+val: "C:/Users/*****/Desktop/new_data/images/val"
+test: "C:/Users/*****/Desktop/new_data/images/test"
 
 nc: 2
-names: ['ambulance','x']
+names: ['ambulance','x'] #x is not ambulance
 
 
