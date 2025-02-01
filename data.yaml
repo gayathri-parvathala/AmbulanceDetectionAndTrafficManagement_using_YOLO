@@ -3,6 +3,6 @@ val: "C:/Users/*****/Desktop/new_data/images/val"
 test: "C:/Users/*****/Desktop/new_data/images/test"
 
 nc: 2
-names: ['ambulance','x'] #x is not ambulance
+names: ['ambulance','x'] #x is "not ambulance"
 
 
