@@ -66,12 +66,15 @@ Start the Python Script:
 Run the python script to begin processing the video feeds and detect ambulances:
 
 python (your_python_scrpit_file).py (terminal)
-The script will:
+
+*The script will:*
+
 Open the video feeds from the specified paths (cam1.mp4, cam2.mp4, etc.).
 Process each video frame using the YOLOv8 model to detect ambulances.
 If an ambulance is detected in any road, the Python script sends a command to the Arduino to turn the green light for the respective road, allowing the ambulance to pass.
 The traffic lights cycle every 5 seconds by default unless an ambulance is detected, in which case it holds the green light for the corresponding road for 10 seconds.
-Arduino Logic:
+
+*Arduino Logic:*
 
 The Arduino will cycle through the four roads, setting each road's green light for 5 seconds by default.
 When the Python script sends a signal indicating an ambulance, the Arduino switches the green light for the road where the ambulance is detected and holds it for 10 seconds.
