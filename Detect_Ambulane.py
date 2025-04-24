@@ -3,12 +3,12 @@ import cv2
 import numpy as np
 import serial
 import time
-model_path = 'C:\\Users\\yolei\\Desktop\\amb_v8\\runs\\detect\\train3\\weights\\best.pt'
+model_path = 'path_to_best.pt'
 video_paths = [
-    "C:/Users/*****/Downloads/cam1.mp4",  #add path to your videos
-    "C:/Users/*****/Downloads/cam2.mp4",  
-    "C:/Users/*****/Downloads/cam3.mp4",  
-    "C:/Users/*****/Downloads/cam4.mp4"   
+    "cam1.mp4",  #add path to your videos
+    "cam2.mp4",  
+    "cam3.mp4",  
+    "cam4.mp4"   
 ]
 
 model = YOLO(model_path)
