@@ -1,6 +1,6 @@
-train: "C:/Users/*****/Desktop/new_data/images/train" #add path to train,val,test sets
-val: "C:/Users/*****/Desktop/new_data/images/val"
-test: "C:/Users/*****/Desktop/new_data/images/test"
+train: "path/to/train" #add path to train,val,test sets
+val: "path/to/val"
+test: "path/to/test"
 
 nc: 2
 names: ['ambulance','x'] #x is "not ambulance"
